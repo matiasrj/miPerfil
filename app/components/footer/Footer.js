@@ -18,7 +18,7 @@ export function Footer () {
    
     $footer.appendChild(FormContacto());
     $footer.appendChild($p);
-    $p.innerHTML = `Footer sticky`;
+    $p.innerHTML = `Gracias por tu visita al sitio`;
     
 
 
