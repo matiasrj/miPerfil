@@ -61,7 +61,7 @@ export  function Seccion1 (){
      `
 
 
-    $img.src= '../../app/assets/img/yo.jpg';
+    $img.src= '../app/assets/img/yo.jpg';
     $img.alt= 'imagen de Perfil' ;
     $img.classList.add('imagen-perfil');
 
