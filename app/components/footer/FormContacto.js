@@ -59,6 +59,7 @@ export function FormContacto(){
         width: 100%;
         background-color: #6a1b9a;
         color: white;
+        margin-bottom: 1rem;
     }
 
     .contacto-form [required]: valid {

@@ -10,24 +10,20 @@ export function Seccion2 (){
 
      $pieArticulo.classList.add('volver')
    
-     $styles.innerHTML+=`
-     p{
-         width : 50%;
-         text-align:center;
-         margin: auto;
-         margin-top : 2rem;
-         margin-bottom : 2rem;
 
-     }
+     /** En caso de personalizar componentes.
+      * 
+      * $styles.innerHTML+=`
 
-     .volver{
-         text-align: right;
-         margin:auto;
-
-     }
    
      `
+     
+     */ 
 
+     $styles.innerHTML+=`
+
+   
+     `
 
 
 
@@ -35,14 +31,14 @@ export function Seccion2 (){
     $seccion.appendChild($articulo);
     $seccion.appendChild($pieArticulo);
     $seccion.id='seccion2';
-    $parrafo.innerHTML=`Seccion 2 <br><br>
-     What is Lorem Ipsum?
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-      when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-      It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-      It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-       desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`
+    $parrafo.innerHTML=` <p> Intereses  <br> </p>
+    <ul> 
+    <li> <i class=" tiny material-icons"> brightness_1 </i> Nada como aprender (y hacer) lo que nos apasiona, en mi caso, la programacion y tecnologia</li><br> 
+    <li> <i class="tiny material-icons"> brightness_1 </i>  Una buena serie de ejercicios siempre viene bien</li><br> 
+    <li> <i class="tiny material-icons"> brightness_1 </i> Un buen partido, del deporte que sea</li><br> 
+   </ul>
+        
+    `
 
        $pieArticulo.innerHTML=`
        <a href ="#"> Volver </a>`
