@@ -27,7 +27,7 @@ export  function Seccion3 (){
     $seccion.id='seccion3';
     $parrafo.innerHTML=`
     <p>Si has llegado hasta aqui, <br><br>
-    quizás sea de tu interes contactarme.
+    quizás sea de tu interés contactarme.
     Si tienes alguna consulta, comentario, o estás en búsqueda de iniciar un proyecto, ó simplemente algún
     tips o fuentes desde los cuales aprendí a desarrollar este y otros sitios, no dudes en comunicarte. A continuación
     te dejo un formulario.  <br></p>
