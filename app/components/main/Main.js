@@ -1,3 +1,4 @@
+import { WhatsApp } from "../Whatsapp.js";
 import {DivisionSeccion} from "./DivisionSeccion.js";
 import {Seccion1} from "./Seccion1.js";
 import {Seccion2} from "./Seccion2.js";
@@ -15,6 +16,7 @@ export function Main() {
     $main.appendChild(Seccion2());
     $main.appendChild(DivisionSeccion());
     $main.appendChild(Seccion3());
+    $main.appendChild(WhatsApp());
 
     return $main;
 }
