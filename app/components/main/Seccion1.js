@@ -2,31 +2,73 @@ export  function Seccion1 (){
     const d = document,
      $seccion = d.createElement('section'),
      $articulo = d.createElement('article'),
+ 
+     $img = d.createElement('img'),
+ 
      $pieArticulo = d.createElement('article'),
 
      $parrafo = d.createElement('p'),
      $styles = d.getElementById('dynamic-styles');
 
+
+    
+
     $pieArticulo.classList.add('volver')
     
     $styles.innerHTML+=`
-     p{
-         width : 50%;
-         text-align:center;
-         margin: auto;
-         margin-top : 2rem;
-         margin-bottom : 2rem;
 
-     }
+    .imagen-perfil {
+        border-radius : 50%;
+        width : 40%;
+        height:auto;
+        margin: auto;
+        margin-top : 2rem;
+        margin-bottom : 2rem;
+    }
 
-     .volver{
-         text-align: right;
-         margin:auto;
+
+
+
+     .articulo-perfil {
+         display : flex;
+         flex-direction : row;
+         justify-content: space-evently;
+         align-items : center;
 
      }
    
+     .articulo-perfil > p {
+     width : 50%
+          
+    }
+    
+    @media (max-width: 800px) {
+        .articulo-perfil {
+            display : flex;
+            flex-direction : column;
+            justify-content: space-evently;
+            align-items : center;
+        }
+
+        p{
+            width : 80%;
+        }
+
+    
+      }
+
+
      `
 
+
+    $img.src= '../app/assets/img/yo.jpg';
+    $img.alt= 'imagen de Perfil' ;
+    $img.classList.add('imagen-perfil');
+
+    
+    $articulo.classList.add('articulo-perfil')
+
+    $articulo.appendChild($img);
     $articulo.appendChild($parrafo);
     
     
@@ -34,14 +76,15 @@ export  function Seccion1 (){
     $seccion.appendChild($pieArticulo);
 
     $seccion.id='seccion1';
-    $parrafo.innerHTML=`Seccion 1 <br> <br> 
-     What is Lorem Ipsum?
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-      when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-      It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-      It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-       desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`
+    $parrafo.innerHTML=`<p>Hola!  Soy Matias Juarez, 
+        Ing. Electrónico, dedicado,  por un lado, a la instrumentacion industrial
+        y automatizacion de procesos. </p>
+
+        <p>Por otro lado, en este ultimo tiempo he desarrollado proyectos relacionados 
+        al mundo de la programacion.<p>
+
+        <p>De esta manera, utilizando la tecnologia como principal herramienta, busco lograr soluciones
+        a las necesidades que le dan forma a cada proyecto</p>`
 
     
      $pieArticulo.innerHTML=`

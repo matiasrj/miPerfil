@@ -10,71 +10,36 @@ export  function Seccion3 (){
      $pieArticulo.classList.add('volver')
 
 
-        
-    $styles.innerHTML+=`
-    p{
-        width : 50%;
-        text-align:center;
-        margin: auto;
-        margin-top : 2rem;
-        margin-bottom : 2rem;
+     /** En caso de personalizar componentes.
+      * 
+      * $styles.innerHTML+=`
 
-    }
-
-    .volver{
-        text-align: right;
-        margin:auto;
-
-    }
-  
-    `
+   
+     `
+     
+     */   
+     
 
 
     $articulo.appendChild($parrafo); 
     $seccion.appendChild($articulo);
     $seccion.appendChild($pieArticulo);
     $seccion.id='seccion3';
-    $parrafo.innerHTML=`Seccion 3 <br><br>
-     What is Lorem Ipsum?
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-      when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-      It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-      It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-       desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-       
+    $parrafo.innerHTML=`
+    <p>Si has llegado hasta aqui, <br><br>
+    quizas sea de tu interes contactarme.
+    Si tienes alguna consulta, comentario, o estás en búsqueda de iniciar un proyecto, ó simplemente algun
+    tips o fuentes desde los cuales aprendí a desarrollar este y otros sitios, no dudes en comunicarte. A continuación
+    te dejo un formulario.  <br></p>
+    
+    <p> Nota: En unos dias mas, voy a incorporar a este sitio los links adicionales para que 
+    puedas contactarme via LinkedIn, Github, y demas... <br><br> </p> 
 
 
+    <p> Mientras tanto, espero que tengas un buen dia y gracias por tu interés... <br> </p> 
 
 
-       What is Lorem Ipsum?
-       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-         when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-         It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-         It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-          desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-
-
-
-          
-          
-          What is Lorem Ipsum?
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-             desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-             
-             What is Lorem Ipsum?
-             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-               when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-               It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-               It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-                desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`
+   `
 
 
                 $pieArticulo.innerHTML=`

@@ -25,10 +25,10 @@ export default function Navbar() {
     <a href="#!" class="brand-logo">MR</a>
     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
-      <li><a href="#">Home</a></li>
-      <li><a href="#seccion1">Seccion1</a></li>
-      <li><a href="#seccion2">Seccion2</a></li>
-      <li><a href="#seccion3">Seccion3</a></li>
+      <li>  <a href="#"> <i class=" tiny material-icons left"> home  </i>  Home   </a></li>
+      <li> <a href="#seccion1">Presentación</a></li>
+      <li> <a href="#seccion2">Intereses</a></li>
+      <li> <a href="#seccion3">Contacto</a></li>
     </ul>
   </div>`;
         
