@@ -36,7 +36,7 @@ export  function Seccion3 (){
     puedas contactarme via LinkedIn, Github, y demas... <br><br> </p> 
 
 
-    <p> Mientras tanto, espero que tengas un buen dia y gracias por tu interés... <br> 
+    <p> Mientras tanto, espero que tengas un buen dia y gracias por tu interés... <br>  <br>
         <i class="tiny material-icons">local_phone</i> +54 0381 5661469
     </p>
     
