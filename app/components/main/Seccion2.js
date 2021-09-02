@@ -33,9 +33,10 @@ export function Seccion2 (){
     $seccion.id='seccion2';
     $parrafo.innerHTML=` <p> Intereses  <br> </p>
     <ul> 
-    <li> <i class=" tiny material-icons"> brightness_1 </i> Nada como aprender (y hacer) lo que nos apasiona, en mi caso, la programacion y tecnologia.</li><br> 
+    <li> <i class=" tiny material-icons"> brightness_1 </i> Nada como aprender (y hacer) lo que nos apasiona, en mi caso, la programación y tecnología.</li><br> 
     <li> <i class="tiny material-icons"> brightness_1 </i>  Una buena serie de ejercicios siempre viene bien.</li><br> 
-    <li> <i class="tiny material-icons"> brightness_1 </i> Un buen partido, del deporte que sea.</li><br> 
+    <li> <i class="tiny material-icons"> brightness_1 </i> Un buen partido, del deporte que sea.</li><br>
+    <li> <i class="tiny material-icons"> brightness_1 </i> Tomar unos mates...</li><br>
    </ul>
         
     `
