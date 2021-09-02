@@ -19,7 +19,7 @@ export  function Seccion1 (){
 
     .imagen-perfil {
         border-radius : 50%;
-        width : 40%;
+        width : 25%;
         height:auto;
         margin: auto;
         margin-top : 2rem;
@@ -32,7 +32,6 @@ export  function Seccion1 (){
      .articulo-perfil {
          display : flex;
          flex-direction : row;
-         justify-content: space-evently;
          align-items : center;
 
      }
