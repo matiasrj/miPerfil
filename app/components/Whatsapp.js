@@ -13,8 +13,8 @@ export    function WhatsApp () {
 
     .btn-whatsapp{
         position : fixed;
-        bottom : 15vh;
-        right : 4vw;
+        bottom : 90px;
+        right : 30px;
         z-index : 999;
         backgground-color : #222;
         
