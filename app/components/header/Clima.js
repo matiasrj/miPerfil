@@ -3,7 +3,20 @@ export  function Clima (){
     
     let $indicador = document.createElement('section'),
     $articulo = document.createElement('article'),
-    $p = document.createElement('p');
+    $p = document.createElement('p'),
+    
+    $styles = document.getElementById('dynamic-styles');
+    $styles.innerHTML+=`
+    .clima{
+        text-align: right;
+        font-size: 10px;
+        width: 90vw;
+    }
+
+   
+     `
+
+     $p.classList.add('clima');
 
     $articulo.appendChild($p)
     $indicador.appendChild($articulo)
@@ -20,7 +33,29 @@ export  function Clima (){
   
     function error(err) {
     console.warn(`ERROR(${err.code}): ${err.message}`);
-    $p.innerHTML= 'No se pudo cargar el clima, <br>intente cargar la pagina nuevamente o habilitar el permiso correspondiente.';
+    switch(error.code) {
+        case error.PERMISSION_DENIED:
+            $p.innerHTML= `Si otorgas el permiso de localizacion, <br>
+            ó habilitas tu gps, aquí podrás ver  el clima de tu ciudad. `;
+            // El usuario denegó el permiso para la Geolocalización.
+            break;
+        case error.POSITION_UNAVAILABLE:
+            $p.innerHTML= `No se pudo cargar el clima <br>, 
+            intente cargar la pagina nuevamente. `;
+            // La ubicación no está disponible.
+            break;
+        case error.TIMEOUT:
+            $p.innerHTML= `No se pudo cargar el clima <br>, 
+            intente cargar la pagina nuevamente. `;
+            // Se ha excedido el tiempo para obtener la ubicación.
+            break;
+        case error.UNKNOWN_ERROR:
+            $p.innerHTML= `No se pudo cargar el clima <br>, 
+            intente cargar la pagina nuevamente. `;
+            // Un error desconocido.
+            break;
+    }
+
     document.querySelector('.loader').style.display= 'none';
     };
       
