@@ -77,13 +77,13 @@ export  function Seccion1 (){
 
     $seccion.id='seccion1';
     $parrafo.innerHTML=`<p>Hola!  Soy Matias Juarez, 
-        Ing. Electrónico, dedicado,  por un lado, a la instrumentacion industrial
-        y automatizacion de procesos. </p>
+        Ing. Electrónico, dedicado,  por un lado, a la instrumentación industrial
+        y automatización de procesos. </p>
 
-        <p>Por otro lado, en este ultimo tiempo he desarrollado proyectos relacionados 
-        al mundo de la programacion.<p>
+        <p>Por otro lado, en este último tiempo he desarrollado proyectos relacionados 
+        al mundo de la programación.<p>
 
-        <p>De esta manera, utilizando la tecnologia como principal herramienta, busco lograr soluciones
+        <p>De esta manera, utilizando la tecnología como principal herramienta, busco brindar soluciones
         a las necesidades que le dan forma a cada proyecto</p>`
 
     
