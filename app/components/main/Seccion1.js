@@ -84,7 +84,7 @@ export  function Seccion1 (){
         al mundo de la programación.<p>
 
         <p>De esta manera, utilizando la tecnología como principal herramienta, busco brindar soluciones
-        a las necesidades que le dan forma a cada proyecto</p>`
+        a las necesidades que le dan forma a cada proyecto.</p>`
 
     
      $pieArticulo.innerHTML=`
