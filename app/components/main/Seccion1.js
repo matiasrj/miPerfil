@@ -50,7 +50,7 @@ export  function Seccion1 (){
             align-items : center;
         }
 
-        p{
+        .articulo-perfil p, p{
             width : 80%;
         }
 
