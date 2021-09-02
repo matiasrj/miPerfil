@@ -20,7 +20,7 @@ export  function Clima (){
   
     function error(err) {
     console.warn(`ERROR(${err.code}): ${err.message}`);
-    $p.innerText= 'No se pudo cargar el clima, <br>intente cargar la pagina nuevamente o habilitar el permiso correspondiente.';
+    $p.innerHTML= 'No se pudo cargar el clima, <br>intente cargar la pagina nuevamente o habilitar el permiso correspondiente.';
     document.querySelector('.loader').style.display= 'none';
     };
       
