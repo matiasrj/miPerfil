@@ -35,10 +35,10 @@ export default function Navbar() {
     $navbarLateral.classList.add("sidenav");
     $navbarLateral.id="mobile-demo"
     $navbarLateral.innerHTML=`   
-    <li><a href="#">Home</a></li>
-    <li><a href="#seccion1">Seccion 1</a></li>
-    <li><a href="#seccion2">Seccion 2</a></li>
-    <li><a href="#seccion3">Seccion 3</a></li>`
+    <li><i class=" tiny material-icons left"> home  </i> <a href="#">Home</a></li>
+    <li><a href="#seccion1">Presentación</a></li>
+    <li><a href="#seccion2">Intereses</a></li>
+    <li><a href="#seccion3">Contacto</a></li>`
   
     $nav.appendChild($navbarLateral)
 
